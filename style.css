@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+}
+
+h2 {
+    color: gray;
+    font-size: 24px;
+}
+.Foto {
+    border: 2px solid white;
+}
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: beige;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: blue;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: beige;
+}
