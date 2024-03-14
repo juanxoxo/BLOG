@@ -65,20 +65,6 @@ a:hover {
     font-size: 16px;
 }
 
-#submitInput {
-    margin-top: 10px;
-    padding: 8px 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-#submitInput:hover {
-    background-color: #0056b3;
-}
-
 #toggleInput {
     display: none;
 }
@@ -89,6 +75,7 @@ a:hover {
     color: white;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 24px; /* Tamaño del mismo que otros subtítulos */
 }
 
 #showInput:hover {
@@ -98,5 +85,3 @@ a:hover {
 #toggleInput:checked ~ #inputContainer {
     display: block;
 }
-
-
