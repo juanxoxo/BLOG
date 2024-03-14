@@ -51,3 +51,51 @@ a:hover {
     text-decoration: underline;
     color: beige;
 }
+#inputContainer {
+    display: none;
+    margin-top: 10px;
+}
+
+#textInput {
+    width: calc(100% - 20px);
+    resize: none;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#submitInput {
+    margin-top: 10px;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submitInput:hover {
+    background-color: #0056b3;
+}
+
+#toggleInput {
+    display: none;
+}
+
+#showInput {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#showInput:hover {
+    background-color: #0056b3;
+}
+
+#toggleInput:checked ~ #inputContainer {
+    display: block;
+}
+
